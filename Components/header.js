@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Nav from "../Components/nav.js"
 import styles from "../Components/header.module.css"
 export default function () {
 
@@ -13,9 +14,11 @@ export default function () {
                     <Link href='login'><img src="/user.png" alt="User" /></Link>
                     <Link href='/favourites'><img src="/heart.png" alt="Favourites" /></Link>
 
+
                 </div>
 
             </div>
+            <Nav/>
         </>
     )
 }

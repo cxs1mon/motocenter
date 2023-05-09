@@ -1,0 +1,14 @@
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    background-color: rgb(201, 197, 197);
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}

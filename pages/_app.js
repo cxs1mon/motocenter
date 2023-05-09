@@ -1,4 +1,5 @@
 import Header from '/Components/header'
+import Footer from '/Components/footer'
 import "/style/_app.css"
 
 export default function App({ Component, pageProps }) {
@@ -11,7 +12,7 @@ export default function App({ Component, pageProps }) {
                 <Component {...pageProps} />
             </main>
 
-            <footer>footer</ footer >
+            <Footer/>
         </div>
     )
 }
