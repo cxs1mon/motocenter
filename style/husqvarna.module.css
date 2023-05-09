@@ -1,0 +1,18 @@
+.motos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.motos div{
+    padding: 20px;
+}
+.brand{
+    display: grid;
+    justify-items: center;
+    font-size: 45px;
+}
+.model{
+    padding-left: 100px;
+    font-size: 30px;
+    padding-top: 50px;
+}

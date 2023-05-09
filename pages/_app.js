@@ -1,11 +1,11 @@
-
-import "../style/_app.css"
+import Header from '/Components/header'
+import "/style/_app.css"
 
 export default function App({ Component, pageProps }) {
     return (
         <div>
            
-           <header>header</header>
+           <Header/>
 
             <main>
                 <Component {...pageProps} />
