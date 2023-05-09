@@ -4,7 +4,7 @@
     flex-wrap: wrap;
 }
 .motos div{
-    padding: 10px;
+    padding: 0;
 }
 .brand{
     display: grid;
