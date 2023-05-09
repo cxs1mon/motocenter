@@ -1,0 +1,14 @@
+.index {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4em;
+}
+.navicon img{
+    width: 1.5em;
+}
+.navicon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 12em;
+}
