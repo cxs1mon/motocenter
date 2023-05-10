@@ -1,0 +1,17 @@
+.news{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+        margin: 0 10em;
+}
+.src{
+    width: 320px;
+}
+.title{
+    display: grid;
+    justify-items: center;
+    font-size: 35px;
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 20px;
+}
